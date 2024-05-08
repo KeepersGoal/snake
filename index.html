@@ -14,15 +14,6 @@
             font-family: Arial, sans-serif;
         }
 
-        title {
-            position: relative;
-            justify-content: center;
-            align-items: top;
-            height: 100vh;
-            margin: 0;
-            font-family: Arial, sans-serif;
-        }
-
         #gameContainer {
             position: relative;
             border: 2px solid black;
@@ -49,11 +40,22 @@
         #scoreText {
             margin-bottom: 5px;
         }
+        
+        #titleContainer {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            font-size: 24px;
+            margin: 0;
+        }
+
     </style>
 </head>
 <body>
-    <div id="title" width="400" height="100">
-        <p>Welcome to Snake</p>
+    <div id="titleContainer">
+        <h1>Snake Game</h1>
     </div>
     <div id="gameContainer">
         <canvas id="gameCanvas" width="400" height="400"></canvas>
